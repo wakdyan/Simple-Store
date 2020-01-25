@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Store</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_history">History</string>
+    <string name="product_image">Product image</string>
+    <string name="dummy_title">Redmi Note 8 Pro 4/64 GB Original</string>
+    <string name="dummy_price">Rp 32,400</string>
+    <string name="cart">Cart</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="detail_product_image">Detail Product Image</string>
+    <string name="favorite_button">Favorite Button</string>
+    <string name="decrease_button">Decrease Button</string>
+    <string name="dummy_amount">1</string>
+    <string name="checkout">Checkout</string>
+    <string name="dummy_qty">Qty %d</string>
+</resources>
