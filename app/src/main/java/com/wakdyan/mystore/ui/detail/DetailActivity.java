@@ -88,6 +88,7 @@ public class DetailActivity extends AppCompatActivity {
                         @Override
                         public void onClick(View view) {
                             mViewModel.deleteProduct(product);
+                            Snackbar.make(view, "Removed from favorite", Snackbar.LENGTH_LONG).show();
                         }
                     });
                 } else {
@@ -96,12 +97,12 @@ public class DetailActivity extends AppCompatActivity {
                         @Override
                         public void onClick(View view) {
                             mViewModel.insertProduct(mProduct);
+                            Snackbar.make(view, "Added to favorite", Snackbar.LENGTH_LONG).show();
                         }
                     });
                 }
             }
         });
-
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
